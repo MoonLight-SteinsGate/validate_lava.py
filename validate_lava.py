@@ -58,7 +58,7 @@ def main(argv):
 
     uniq_bug = set(validate_bugs)
     for bug in uniq_bug:
-        validate_file.write(str(id)+"\n")
+        validate_file.write(str(bug)+"\n")
 
 
 
